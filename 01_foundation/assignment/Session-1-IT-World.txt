@@ -1,0 +1,70 @@
+.Session 1 – Welcome to the IT World
+
+1. Five IT Job Roles
+
+1. Software Developer – A software developer makes and works on software and applications.
+2. Software Tester – A tester checks the software and finds bugs or mistakes in it.
+3. UI/UX Designer – A UI/UX designer makes the design of websites and apps easy and attractive for users.
+4. Data Analyst – A data analyst studies data and finds useful information from it.
+5. AI Engineer – An AI engineer works on artificial intelligence and machine learning systems.
+
+2. Product Companies and Service Companies
+
+Product Companies
+
+Company: Google
+Example of Work: Makes products like Google Search, YouTube and Android.
+
+Company: Microsoft
+Example of Work: Makes products like Windows, Microsoft 365 and Azure.
+
+Company: Zoho
+Example of Work: Makes business software like CRM and accounting applications.
+
+Service Companies
+
+Company: TCS
+Example of Work: Provides software development and IT services to different companies.
+
+Company: Infosys
+Example of Work: Provides IT services, consulting and software solutions.
+
+Company: Wipro
+Example of Work: Provides services related to IT, cloud and cybersecurity.
+
+Difference: Product companies mainly make their own products, while service companies provide IT services and solutions to other companies.
+
+3. Full Forms and Uses
+
+GitHub
+Full Form/Meaning: GitHub is the name of a platform for hosting Git repositories.
+Use: It is used to manage and work together on source code.
+
+Slack
+Full Form/Meaning: Slack is the name of a communication platform.
+Use: It is used by teams for chatting and communication.
+
+Jira
+Full Form/Meaning: Jira is the name of a project management tool.
+Use: It is used to manage tasks and track bugs.
+
+IDE
+Full Form: Integrated Development Environment
+Use: It is used to write, run and debug programs.
+
+API
+Full Form: Application Programming Interface
+Use: It helps different software applications communicate with each other.
+
+4. Five Programming Languages and Their Uses
+
+1. C – Used for system programming and embedded systems.
+2. C++ – Used for game development and high-performance applications.
+3. Java – Used for enterprise software and Android applications.
+4. Python – Used for AI, machine learning and data analysis.
+5. JavaScript – Used for making websites and web applications interactive.
+
+5. Difference Between a Developer and a Tester
+
+A developer creates software by writing and maintaining the code.
+A tester checks the software and finds bugs or errors to make sure it works properly.
