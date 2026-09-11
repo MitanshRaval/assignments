@@ -1,0 +1,34 @@
+01. Protocols :-
+
+HTTP ( Hypertext Transfer Protocol) :- used to load web pages on the internet.
+HTTPS ( Hypertext Transfer protocol Secure) :- used to load web pages safely with encryption.
+FTP ( File Transfer Protocol ) :- used to send and receive files between computers.
+SMTP ( Simple Mail Transfer Protocol ) :- used to send emails over the internet.
+
+
+02. IPv4 and IPv6 :-
+
+IPv4 :- uses 32-bit addresses written with numbers like 192.168.1.1.
+IPv6 :- uses 128-bit addresses written with numbers and letters like 2001:0db8::1.
+
+03. IP Address Result for google.com :-
+ 
+Command Output IP Address:- 142.250.195.78
+
+
+04. HTTP Status Codes :-
+
+200:- OK  (Request success, page loaded)
+301:- Moved Permanently ( Website address changed )
+403:- Forbidden ( Access denied, no permission)
+404:- Not found (Web page does not exist)
+500:- Internal server error ( problem in the server)
+
+
+05. DNS Hierarchy Example ( www.google.com) :-
+
+
+Root (.) :- The main top level of the internet DNS system.
+TLD (.com) :- Top-Level domain that shows the website type.
+Domain (google) :- The main name of the website.
+Subdomain (www) :- A specific part or section under the main domain.

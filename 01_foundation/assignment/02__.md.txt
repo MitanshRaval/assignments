@@ -1,0 +1,35 @@
+Session 2: How Software Works
+
+1. What are the three main layers of software architecture?
+
+1. UI (User Interface): The part of the software that users see and interact with.
+2. Business Logic: Processes the user's actions and applies the rules and operations of the application.
+3. Database: Stores and manages the application's data for later use.
+
+2. Define client and server in your own words with one real-life example.
+
+Client: A device or application that requests a service or information from another computer.
+
+Server: A computer or system that receives requests from clients, processes them, and sends back the required information.
+
+Example: When you open Instagram, the Instagram app on your phone is the client, while Instagram's servers process your request and send your feed back to your phone.
+
+3. Write 2 differences each between desktop apps, web apps, and mobile apps.
+
+Desktop Apps:
+- Installed directly on a computer.
+- Usually designed for Windows, macOS, or Linux.
+
+Web Apps:
+- Accessed through a web browser.
+- Usually do not require installation on the user's device.
+
+Mobile Apps:
+- Designed for smartphones and tablets.
+- Can use mobile features such as GPS, camera, and notifications.
+
+4. Name any 3 databases and mention whether each is SQL or NoSQL.
+
+- MySQL - SQL
+- PostgreSQL - SQL
+- MongoDB - NoSQL
