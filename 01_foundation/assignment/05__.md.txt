@@ -1,0 +1,53 @@
+1. Git Commands
+
+Task	                               Git Command
+
+Initialize a repository	                git init
+Stage all files                 	git add .
+Commit with a message	                git commit -m "Your message"
+Push to remote	                        git push
+Pull latest changes	                git pull
+
+2. Difference Between git fetch and git pull
+
+git fetch downloads the latest changes from the remote repository without applying them to your current branch.
+git pull downloads the latest changes and automatically merges them into your current branch.
+
+3. Create a GitHub Repository and Push a Text File
+
+Create a repository on GitHub and push a text file using:
+
+git init
+git add .
+git commit -m "Add text file"
+git remote add origin YOUR-REPOSITORY-URL
+git push -u origin main
+
+Repo Link: https://github.com/MitanshRaval/assignments/blob/master/01_foundation/assignment/Session-1-IT-World.txt
+
+4. Difference Between Fork and Pull Request
+
+A Fork creates a personal copy of another user's GitHub repository in your own account.
+A Pull Request is a request to merge your changes into another branch or repository.
+
+5. Create and Merge the feature-test Branch
+
+Use these commands:
+
+git branch feature-test
+git checkout feature-test
+
+Make a change to a file, then stage and commit it:
+
+git add .
+git commit -m "Add feature test"
+
+Switch back to the main branch:
+
+git checkout main
+
+Merge the feature-test branch:
+
+git merge feature-test
+
+The feature-test branch has now been merged into the main branch.

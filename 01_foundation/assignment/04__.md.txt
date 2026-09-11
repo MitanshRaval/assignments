@@ -1,0 +1,40 @@
+1. Six Phases of SDLC
+Requirement  –  Identify and understand what the customer or user needs from the software.
+Design –        Plan the software structure, user interface, database, and overall system     design.
+Development –   Programmers write the code and build the software according to the design.
+Testing –       Test the software to find and fix bugs and make sure it works correctly.
+Deployment –    Release the completed software so that users can use it.
+Maintenance –    Monitor the software, fix problems, and add improvements or new features when needed.
+
+3 Differences Between Agile and Waterfall Models
+
+Agile	Waterfall
+
+1. Agile development is done in small, repeated cycles called iterations or sprints.
+2. Changes can be easily made during development based on feedback.	
+3. Testing is performed continuously throughout development.	
+
+waterfall
+
+1.Waterfall follows a fixed sequence of phases, one after another.
+2.Changes are difficult and costly once a phase is completed.
+3.Testing usually takes place after the development phase is completed.
+
+3 Main Scrum Roles
+
+Product Owner (PO) – Manages the product requirements and decides what features should be developed.
+Scrum Master – Helps the team follow Scrum practices and removes obstacles that affect the team's work.
+Development Team – Designs, develops, tests, and delivers the working product or features.
+
+4. What is a Sprint in Scrum?
+
+A Sprint is a fixed period in Scrum during which the team works on a specific set of tasks and delivers a working part of the product. A typical Sprint lasts 1 to 4 weeks, with 2 weeks being very common.
+
+5. Jira Board Columns
+
+To Do – Tasks that are planned but have not been started yet.
+In Progress – Tasks that the team is currently working on.
+Done – Tasks that have been completed and meet the required conditions.
+Backlog – A list of tasks, features, and requirements that are planned for future work.
+
+
