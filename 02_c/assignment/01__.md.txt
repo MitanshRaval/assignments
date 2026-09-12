@@ -1,0 +1,51 @@
+1.Programing is a set of instruction that a computer what to do.
+
+2.programing language		   usually
+	
+	java          -            compiled
+	python 	      -            interpreted
+	javascript    -            interpreted
+
+3.flowchart
+ 
+tart
+|
+Open BookMyShow app
+|
+Select city
+|
+Select movie
+|
+Select theatre
+|
+Select date and show time
+|
+Select seats
+|
+Confirm booking details
+|
+Make payment
+|
+Payment successful?
+
+No → Try payment again
+Yes → Booking confirmed
+|
+Receive booking confirmation
+|
+End
+
+4.
+
+1.Open the Swiggy app.
+2.Log in or enter the required details.
+3.Search for a restaurant or food item.
+4.Select a restaurant.
+5.Choose the food items you want to order.
+6.Add the items to the cart.
+7.Check the order and delivery address.
+8.Proceed to checkout.
+9.Select a payment method.
+10.Complete the payment.
+11.Receive the order confirmation.
+
