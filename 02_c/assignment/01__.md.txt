@@ -1,5 +1,4 @@
 1.Programing is a set of instruction that a computer what to do.
-
 2.programing language		   usually
 	
 	java          -            compiled
