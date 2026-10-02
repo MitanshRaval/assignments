@@ -1,0 +1,142 @@
+1(session 4 task 1)
+
+
+#include <stdio.h>
+
+float calculateTotal(float itemPrice, int quantity)
+{
+    return itemPrice * quantity;
+}
+
+int main()
+{
+    float price = 100;
+    int quantity = 3;
+
+    printf("Total Bill = %.2f\n", calculateTotal(price, quantity));
+
+    return 0;
+}
+
+2(session 4 task 2)
+
+#include <stdio.h>
+
+int main()
+{
+    float price, discount, discountAmount, finalPrice;
+    int isMember;
+
+    printf("Enter product price: ");
+    scanf("%f", &price);
+
+    printf("Enter discount percentage: ");
+    scanf("%f", &discount);
+
+    printf("Are you a member? (1 = Yes, 0 = No): ");
+    scanf("%d", &isMember);
+
+    discountAmount = price * discount / 100;
+    finalPrice = price - discountAmount;
+
+    if (isMember == 1)
+    {
+        finalPrice = finalPrice - (finalPrice * 5 / 100);
+    }
+
+    printf("Final Price = %.2f\n", finalPrice);
+
+    return 0;
+}
+
+
+3(session 4 task 3)
+
+
+#include <stdio.h>
+
+int isEligibleForOffer(int age, float orderValue)
+{
+    if (age >= 18 && orderValue > 500)
+    {
+        return 1;
+    }
+    else
+    {
+        return 0;
+    }
+}
+
+int main()
+{
+    int age;
+    float orderValue;
+
+    printf("Enter age: ");
+    scanf("%d", &age);
+
+    printf("Enter order value: ");
+    scanf("%f", &orderValue);
+
+    if (isEligibleForOffer(age, orderValue))
+    {
+        printf("Eligible for offer\n");
+    }
+    else
+    {
+        printf("Not eligible for offer\n");
+    }
+
+    return 0;
+}
+
+
+4(session 4 task 4)
+
+
+#include <stdio.h>
+
+int main()
+{
+    int likes, comments, shares;
+
+    printf("Enter likes: ");
+    scanf("%d", &likes);
+
+    printf("Enter comments: ");
+    scanf("%d", &comments);
+
+    printf("Enter shares: ");
+    scanf("%d", &shares);
+
+    if (likes >= 1000 || (comments > 200 && shares >= 50))
+    {
+        printf("Post is Trending\n");
+    }
+    else
+    {
+        printf("Post is Not Trending\n");
+    }
+
+    return 0;
+}
+
+
+5 (session 4 task 5)
+
+#include <stdio.h>
+
+int main()
+{
+    int followerCount = 100;
+
+    printf("Before increment: %d\n", followerCount);
+
+    printf("Post-increment: %d\n", followerCount++);
+    printf("After post-increment: %d\n", followerCount);
+
+    printf("Pre-increment: %d\n", ++followerCount);
+    printf("After pre-increment: %d\n", followerCount);
+
+    return 0;
+}

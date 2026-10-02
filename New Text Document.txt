@@ -1,0 +1,78 @@
+1(session 3 task 1)
+
+#include <stdio.h>
+
+int main()
+{
+    char productName[] = "iPhone 15";
+    float price = 69999.50;
+    double rating = 4.7;
+
+    printf("Product Name: %s\n", productName);
+    printf("Price: %.2f\n", price);
+    printf("Rating: %.1lf\n", rating);
+
+    return 0;
+}
+
+
+2(session 3 task 2)
+
+
+#include <stdio.h>
+
+void main()
+{
+    const float GST = 18.0;
+    float basePrice = 500.0;
+    float gstAmount,finalPrice;
+   
+
+    gstAmount = basePrice * GST / 100;
+    finalPrice = basePrice + gstAmount;
+
+    printf("Base Price:%.2f\n",  basePrice);
+    printf("GST: %.2f\n",        gstAmount);
+    printf("Final Price:%.2f\n",finalPrice);
+
+   
+}
+
+3(session 3 task 3)
+
+#include <stdio.h>
+
+int main()
+{
+    char playlistName[] = "My Favorite Songs";
+    int totalSongs = 25;
+    float avgduration = 3.5;
+
+    printf("My playlist \"%s\" has %d songs with an average duration of %.1f minutes.\n",
+            playlistName, totalSongs, avgduration);
+
+    return 0;
+                                        
+}               
+
+
+4(session 3 task 4)
+
+
+#include <stdio.h>
+
+int main() {
+    int firstPlayer = 10;
+    int player_age = 18;
+    int score = 95;
+    int total_marks = 500;
+    int userName = 1;
+
+    printf("%d\n", firstPlayer);
+    printf("%d\n", player_age);
+    printf("%d\n", score);
+    printf("%d\n", total_marks);
+    printf("%d\n", userName);
+
+    return 0;
+}
