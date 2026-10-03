@@ -1,0 +1,136 @@
+1(session 6 task 1)
+
+
+#include <stdio.h>
+
+int main() {
+
+    for (int i = 10; i >= 1; i--) {
+        printf("%d\n", i);
+    }
+
+    return 0;
+}
+
+
+2(session 6 task 2)
+
+
+2 (session 6 task 2)
+
+
+#include <stdio.h>
+
+int main() {
+
+    int choice;
+    char newTeam[50];
+
+    while (1) {
+
+        printf("\n--- IPL MENU ---\n");
+        printf("1. View Favorite 3 IPL Teams\n");
+        printf("2. Add a New Team\n");
+        printf("3. Exit\n");
+
+        printf("Enter your choice: ");
+        scanf("%d", &choice);
+
+        if (choice == 1) {
+            printf("\nMy Favorite IPL Teams:\n");
+            printf("1. Mumbai Indians\n");
+            printf("2. Chennai Super Kings\n");
+            printf("3. Royal Challengers Bengaluru\n");
+        }
+        else if (choice == 2) {
+            printf("Enter new team name: ");
+            scanf(" %[^\n]", newTeam);
+
+            printf("New team added: %s\n", newTeam);
+        }
+        else if (choice == 3) {
+            printf("Exiting program...\n");
+            break;
+        }
+        else {
+            printf("Invalid choice!\n");
+        }
+    }
+
+    return 0;
+}
+
+
+3 (session 6 task 3)
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+
+    char songs[3][50] = {
+        "Believer",
+        "Perfect",
+        "Shape of You"
+    };
+
+    char guess[50];
+
+    // Fixed song
+    char correctSong[50] = "Perfect";
+
+    do {
+        printf("\nGuess the Song!\n");
+        printf("Songs are from Spotify.\n");
+        printf("Enter your guess: ");
+        scanf(" %[^\n]", guess);
+
+        if (strcmp(guess, correctSong) == 0) {
+            printf("Correct! You guessed the song!\n");
+        }
+        else {
+            printf("Wrong guess! Try again.\n");
+        }
+
+    } while (strcmp(guess, correctSong) != 0);
+
+    return 0;
+}
+
+4 (session 6 task 4)
+
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+
+    char songs[3][50] = {
+        "Believer",
+        "Perfect",
+        "Shape of You"
+    };
+
+    char guess[50];
+
+    // Fixed song
+    char correctSong[50] = "Perfect";
+
+    do {
+        printf("\nGuess the Song!\n");
+        printf("Songs are from Spotify.\n");
+        printf("Enter your guess: ");
+        scanf(" %[^\n]", guess);
+
+        if (strcmp(guess, correctSong) == 0) {
+            printf("Correct! You guessed the song!\n");
+        }
+        else {
+            printf("Wrong guess! Try again.\n");
+        }
+
+    } while (strcmp(guess, correctSong) != 0);
+
+    return 0;
+}
+
