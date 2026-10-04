@@ -47,3 +47,100 @@ int main() {
     return 0;
 }
 
+3 (session 8 task 3)
+
+
+#include <stdio.h>
+
+void increaseFollowersByValue(int followers)
+{
+    followers = followers + 1000;
+
+    printf("Inside pass-by-value: %d\n", followers);
+}
+
+void increaseFollowersByReference(int *followers)
+{
+    *followers = *followers + 1000;
+
+    printf("Inside pass-by-reference: %d\n", *followers);
+}
+
+int main()
+{
+    int followers = 5000;
+
+    printf("Original followers: %d\n", followers);
+
+    increaseFollowersByValue(followers);
+
+    printf("After pass-by-value: %d\n", followers);
+
+    increaseFollowersByReference(&followers);
+
+    printf("After pass-by-reference: %d\n", followers);
+
+    return 0;
+}
+
+
+4(sesion 8 task 4)
+     
+
+#include <stdio.h>
+
+char* formatPrice(int price)
+{
+    static char result[30];
+
+    if (price >= 10000)
+    {
+        sprintf(result, "₹%d,%03d", price / 1000, price % 1000);
+    }
+    else if (price >= 1000)
+    {
+        sprintf(result, "₹%d,%03d", price / 1000, price % 1000);
+    }
+    else
+    {
+        sprintf(result, "₹%d", price);
+    }
+
+    return result;
+}
+
+int main()
+{
+    printf("Laptop: %s\n", formatPrice(55999));
+    printf("Headphones: %s\n", formatPrice(1599));
+    printf("Mouse: %s\n", formatPrice(799));
+
+    return 0;
+}
+
+5(session 8 task 5)
+
+#include <stdio.h>
+
+void capitalizeFirstLetter(char text[])
+{
+    if (text[0] >= 'a' && text[0] <= 'z')
+    {
+        text[0] = text[0] - 32;
+    }
+}
+
+int main()
+{
+    char product[] = "iphone";
+    char username[] = "mitansh";
+
+    capitalizeFirstLetter(product);
+    capitalizeFirstLetter(username);
+
+    printf("Product: %s\n", product);
+    printf("Username: %s\n", username);
+
+    return 0;
+}
+

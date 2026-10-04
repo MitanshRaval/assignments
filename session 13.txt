@@ -1,0 +1,106 @@
+1(session 13 task 1)
+
+#include <stdio.h>
+
+int main()
+{
+    FILE *file;
+
+    file = fopen("playlist.txt", "w");
+
+    fprintf(file, "Perfect\n");
+    fprintf(file, "Tum Hi Ho\n");
+    fprintf(file, "Love Story\n");
+
+    fclose(file);
+
+    printf("Songs written successfully!");
+
+    return 0;
+}
+
+
+2(session 13 task 2)
+
+#include <stdio.h>
+
+int main()
+{
+    FILE *file;
+    char song[100];
+
+    file = fopen("playlist.txt", "r");
+
+    while (fgets(song, sizeof(song), file) != NULL)
+    {
+        printf("%s", song);
+    }
+
+    fclose(file);
+
+    return 0;
+}
+
+
+3 (session 13 task 3)
+
+
+#include <stdio.h>
+
+int main()
+{
+    FILE *file;
+
+    file = fopen("playlist.txt", "a");
+
+    fprintf(file, "Until I Found You\n");
+    fprintf(file, "What Makes You Beautiful\n");
+
+    fclose(file);
+
+    printf("Two songs added successfully!");
+
+    return 0;
+}
+
+4(session 13 task 4)
+
+
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    FILE *file;
+    char song[100];
+    char lowerSong[100];
+    int i;
+
+    file = fopen("playlist.txt", "r");
+
+    while (fgets(song, sizeof(song), file) != NULL)
+    {
+        for (i = 0; song[i] != '\0'; i++)
+        {
+            if (song[i] >= 'A' && song[i] <= 'Z')
+            {
+                lowerSong[i] = song[i] + 32;
+            }
+            else
+            {
+                lowerSong[i] = song[i];
+            }
+        }
+
+        lowerSong[i] = '\0';
+
+        if (strstr(lowerSong, "love") != NULL)
+        {
+            printf("%s", song);
+        }
+    }
+
+    fclose(file);
+
+    return 0;
+}

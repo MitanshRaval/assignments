@@ -1,0 +1,108 @@
+1(session 11 task 1)
+
+#include <stdio.h>
+
+int main()
+{
+    int likes = 500;
+    int *ptrLikes = &likes;
+
+    printf("Value of likes: %d\n", likes);
+    printf("Address of likes: %p\n", (void*)&likes);
+    printf("Address stored in ptrLikes: %p\n", (void*)ptrLikes);
+
+    return 0;
+}
+
+2(session 11 task 2)
+
+#include <stdio.h>
+
+void swapPlaylistCounts(int *a, int *b)
+{
+    int temp;
+
+    temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+int main()
+{
+    int playlist1 = 50;
+    int playlist2 = 80;
+
+    printf("Before swapping:\n");
+    printf("Playlist 1: %d songs\n", playlist1);
+    printf("Playlist 2: %d songs\n", playlist2);
+
+    swapPlaylistCounts(&playlist1, &playlist2);
+
+    printf("\nAfter swapping:\n");
+    printf("Playlist 1: %d songs\n", playlist1);
+    printf("Playlist 2: %d songs\n", playlist2);
+
+    return 0;
+}
+
+
+3(session 11 task 3)
+
+
+#include <stdio.h>
+
+int main()
+{
+    int orders[5] = {250, 180, 320, 150, 400};
+
+    int *ptr = orders;
+
+    for (int i = 0; i < 5; i++)
+    {
+        printf("Order amount: %d\n", *ptr);
+        printf("Memory address: %p\n\n", (void*)ptr);
+
+        ptr++;
+    }
+
+    return 0;
+}
+
+
+4(session 11 task 4)
+
+
+#include <stdio.h>
+
+void incrementFollowers(int *followers, int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        *followers = *followers + 100;
+        followers++;
+    }
+}
+
+int main()
+{
+    int followers[5] = {1000, 2500, 5000, 3200, 7000};
+
+    printf("Before increment:\n");
+
+    for (int i = 0; i < 5; i++)
+    {
+        printf("%d\n", followers[i]);
+    }
+
+    incrementFollowers(followers, 5);
+
+    printf("\nAfter increment:\n");
+
+    for (int i = 0; i < 5; i++)
+    {
+        printf("%d\n", followers[i]);
+    }
+
+    return 0;
+}
+
