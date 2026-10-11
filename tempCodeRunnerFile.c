@@ -1,30 +1,58 @@
-#include<stdio.h>
-
-
-void addToCart(char cart[][20], int *size, char product[]) {
-    int i = *size;
-
-    int j = 0;
-    while (product[j] != '\0') {
-        cart[i][j] = product[j];
-        j++;
-    }
-    cart[i][j] = '\0';
-
-    (*size)++;
-
-    printf("Updated Cart:\n");
-
-    for (i = 0; i < *size; i++) {
-        printf("%s\n", cart[i]);
-    }
-}
+#include <stdio.h>
 
 int main() {
-    char cart[10][20] = {"Laptop", "Mouse"};
-    int size = 2;
+    char operator;
+    double num1, num2, result;
+    char choice;
 
-    addToCart(cart, &size, "Keyboard");
+    do {
+        printf("Enter first number: ");
+        scanf("%lf", &num1);
 
+        printf("Enter operator (+, -, *, /, %%): ");
+        scanf(" %c", &operator);
+
+        printf("Enter second number: ");
+        scanf("%lf", &num2);
+
+        switch (operator) {
+            case '+':
+                result = num1 + num2;
+                printf("%.2lf + %.2lf = %.2lf\n", num1, num2, result);
+                break;
+            case '-':
+                result = num1 - num2;
+                printf("%.2lf - %.2lf = %.2lf\n", num1, num2, result);
+                break;
+            case '*':
+                result = num1 * num2;
+                printf("%.2lf * %.2lf = %.2lf\n", num1, num2, result);
+                break;
+            case '/':
+                if (num2 == 0) {
+                    printf("Error: division by zero is not allowed.\n");
+                } else {
+                    result = num1 / num2;
+                    printf("%.2lf / %.2lf = %.2lf\n", num1, num2, result);
+                }
+                break;
+            case '%':
+                if ((int)num2 == 0) {
+                    printf("Error: modulo by zero is not allowed.\n");
+                } else {
+                    result = (int)num1 % (int)num2;
+                    printf("%.0lf %% %.0lf = %.0lf\n", num1, num2, result);
+                }
+                break;
+            default:
+                printf("Invalid operator!\n");
+        }
+
+        printf("Do you want to calculate again? (y/n): ");
+        scanf(" %c", &choice);
+
+    } while (choice == 'y' || choice == 'Y');
+
+    printf("Program ended.\n");
     return 0;
 }

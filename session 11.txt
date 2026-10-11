@@ -42,7 +42,7 @@ int main()
     printf("Playlist 1: %d songs\n", playlist1);
     printf("Playlist 2: %d songs\n", playlist2);
 
-    return 0;
+    return 0;    
 }
 
 
@@ -105,4 +105,6 @@ int main()
 
     return 0;
 }
+#include<stdio.h>
 
+void main 
