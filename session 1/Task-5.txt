@@ -1,0 +1,7 @@
+Compare your procedural C version and OOP TaskList version: List 3 problems you faced in the C version that were solved by using classes and methods in the OOP version.
+
+=> Two separate arrays: In C, tasks[] and done[] are separate and must match by index. In OOP, each Task keeps its title and status together.
+
+Fixed size and open data: In C, the array holds only 5 tasks and any function can change it. In OOP, vector grows automatically and the data is private.
+
+Hard to add features: In C, a new feature like a due date means a new array and many changes. In OOP, you add one property in Task.
