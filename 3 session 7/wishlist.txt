@@ -1,0 +1,6 @@
+laptop
+100000
+mobile
+10000
+pencil
+10

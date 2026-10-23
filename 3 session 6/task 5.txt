@@ -1,0 +1,4 @@
+Encapsulation means keeping data and the methods that work on it together in one unit, and controlling who can access it. On Instagram, your password and account data are private. You can’t read or change them directly. You can only go through allowed actions like “Change password”, which can check your old password first. In code, this is private variables with public getters and setters (Tasks 1 and 4).
+
+Abstraction means hiding the complex inner workings and showing only what the user needs. When you tap “Share” on a Reel, you don’t see how it is compressed, stored on servers, or pushed to followers’ feeds. You just see a simple button. In code, this is abstract classes and pure virtual functions (Task 3), where upload() says what must be done and each subclass decides how
+
